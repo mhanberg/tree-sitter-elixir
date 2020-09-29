@@ -1,0 +1,13 @@
+{
+  "name": "tree-sitter-elixir",
+  "version": "0.1.0",
+  "description": "Tree Sitter parser for Elixir",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.14.1"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.16.9"
+  }
+}
