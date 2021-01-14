@@ -1,0 +1,20 @@
+===
+Module
+===
+
+defmodule Foo do
+  defmodule Bar do
+  end
+end
+
+---
+
+(program
+  (expression
+    (module_definition
+      (module_name)
+      (block
+        (expression
+          (module_definition
+            (module_name)
+            (block)))))))

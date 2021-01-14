@@ -1,0 +1,15 @@
+===
+Multiword Module
+===
+
+defmodule Foo.Bar do
+end
+
+---
+
+(program
+  (expression
+    (module_definition
+      (module_name)
+      (block))))
+
